@@ -1,0 +1,35 @@
+/* Minimalistic sidebar: light grey background, black text */
+:root {
+    --sidebar-bg: #f0f0f0;
+    --sidebar-fg: #1a1a1a;
+    --sidebar-non-existant: #505050;
+    --sidebar-active: #000000;
+    --sidebar-spacer: #d0d0d0;
+}
+
+.sidebar {
+    background-color: var(--sidebar-bg);
+    color: var(--sidebar-fg);
+}
+
+.sidebar .sidebar-scrollbox {
+    background-color: var(--sidebar-bg);
+}
+
+.sidebar a {
+    color: var(--sidebar-fg);
+}
+
+.sidebar a:hover {
+    color: var(--sidebar-active);
+}
+
+.sidebar a.active,
+.sidebar a.current-header {
+    color: var(--sidebar-active);
+    font-weight: 600;
+}
+
+.sidebar .chapter li.part-title {
+    color: var(--sidebar-fg);
+}

@@ -1,0 +1,16 @@
+[book]
+authors = ["Purbo Mohamad"]
+language = "en"
+src = "src"
+title = "Let's Get Functional"
+description = "A Practitioner's Guide to Functional Programming in Familiar Languages"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "ayu"
+additional-css = ["src/theme/custom.css"]
+git-repository-url = "https://github.com/purboo/lets-get-functional-v2"
+edit-url-template = "https://github.com/purboo/lets-get-functional-v2/edit/main/{path}"
